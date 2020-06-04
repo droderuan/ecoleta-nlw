@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/page-home.css">
+  <link rel="stylesheet" href="styles/modal.css">
+
   <link rel="stylesheet" href="./styles/responsive.css">
 
 
@@ -18,7 +20,7 @@
 
       <header>
         <img src="./assets/icones/logo.svg" alt="Ecoleta Logo">
-        <a href="#">
+        <a href="/create-point.html">
         <span></span>
           Cadastre um ponto de coleta
         </a>        
@@ -35,5 +37,26 @@
       </main>
     </div>
   </div>
+
+  <div id="modal" class="hiden">
+    <div class="content">
+      <div class="header">
+        <h1>Ponto de coleta</h1>
+        <a href="#">Fechar</a>
+      </div>
+      <form action="/search-results.html">
+        <label for="search">Cidade</label>
+        <div class="search field">
+          <input type="text" name="search" placeholder="Pesquise por cidade">
+          <button>
+            <img src="./assets/icones/search.svg" alt="Pesquisar">
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="scripts/index.js"></script>
 </body>
 </html>

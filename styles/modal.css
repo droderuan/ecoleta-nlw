@@ -1,0 +1,82 @@
+#modal {
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #0e0a14ef;
+  transition: 500ms;
+}
+
+#modal.hiden {
+  display: none;
+}
+
+#modal .content {
+  width: 420px;
+  color: #fff;
+
+
+}
+
+#modal .content .header {
+  width: 100%;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#modal .content .header h1 {
+  line-height: 42px;
+  font-size: 36px;
+  color: #fff;
+}
+
+#modal .content .header a {
+  background: url("../assets/icones/x.svg");
+  width: 20px;
+  height: 20px;
+  display: flex; 
+  font-size: 0.001px; 
+}
+
+#modal .content label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#modal .content .field {
+  display: flex;
+}
+
+#modal .content .field input {
+  flex: 1;
+  padding: 16px 24px;
+  border: 0;
+  border-radius: 8px 0 0 8px;
+
+  background: var(--input-color);
+  color: #6c6c80;
+}
+
+#modal .content .field button {
+  height: 72px;
+  width: 72px;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  background: var(--primary-color);
+  transition: 200ms;
+  cursor: pointer;
+}
+
+#modal .content .field button:hover {
+  background: var(--primary-color-darken);
+}

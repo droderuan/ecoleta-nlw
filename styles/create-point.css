@@ -65,7 +65,7 @@ form select {
   border: 0;
   outline: none;
   border-radius: 8px;
-  background-color: #f0f0f5;
+  background-color: var(--input-color);
 }
 
 form select {
@@ -97,7 +97,7 @@ form button {
 }
 
 form button:hover{
-  background-color: #2fb86e;
+  background-color: var(--primary-color-darken);
 }
 
 .grid-items {
