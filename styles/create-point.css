@@ -1,0 +1,142 @@
+#page-create-point {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#page-create-point header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-create-point header a {
+  display: flex;
+  align-items: center;
+}
+
+#page-create-point header a span {
+  margin-right: 16px;
+  display: block;
+  background: url('../assets/icones/arrow-left.svg');
+  height: 24px;
+  width: 20px;
+}
+
+form {
+  background: #fff;
+
+  margin: 80px auto;
+  padding: 64px;
+  border-radius: 8px;
+  max-width: 730px;
+}
+
+fomr h1 {
+  font-size: 36px;
+}
+
+form fieldset{
+  margin-top: 64px;
+  border: 0;
+}
+
+form legend h2 {
+  font-size: 24px;
+}
+
+form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+form label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+form input,
+form select {
+  padding: 16px 24px;
+
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+  background-color: #f0f0f5;
+}
+
+form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+form .field-group {
+  display: flex;
+}
+
+form .field-group .field + .field {
+  margin-left: 24px;
+}
+
+form button {
+  width: 260px;
+  height: 56px;
+  margin-top: 40px;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+
+  transition: background-color 400ms;
+}
+
+form button:hover{
+  background-color: #2fb86e;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.grid-items li {
+  list-style: none;
+  height: 180px;
+  padding: 32px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 2px solid #f5f5f5;
+  cursor: pointer;
+
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.grid-items li span {
+  margin-top: 12px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+  color: var(--color-title)
+}
+
+.grid-items li.selected {
+  background-color: #e1faec;
+  border: 2px solid #34cb79;
+}
+
+.grid-items li span,
+.grid-items li img {
+  pointer-events: none;
+}
