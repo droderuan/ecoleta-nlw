@@ -49,4 +49,4 @@ Se me permite um conselho, pensa como se você tivesse aprendendo a dirigir. É 
 
 ![](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
 
-Me chama no linkedin e talvez eu possa te ajudar com alguma coisa.
+Me chama no [linkedin](https://www.linkedin.com/in/ruan-ferreira-87a15a180/) e talvez eu possa te ajudar com alguma coisa.
